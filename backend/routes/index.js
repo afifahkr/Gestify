@@ -1,0 +1,14 @@
+import express from "express"
+//menangani permintaan (request) untuk mendapatkan data pengguna.
+import { getUsers } from "../controllers/Users.js";
+import { Register } from "../controllers/Users.js";
+
+//Membuat objek router dari Express.
+const router = express.Router();
+
+//Mendefinisikan rute HTTP GET pada path /users. Ketika permintaan GET diterima pada path ini, fungsi getUsers dari controller akan dijalankan.
+router.get('/users', getUsers)
+router.post('/users', Register)
+
+//Mengeskpor objek router agar dapat digunakan di file lain dalam proyek. 
+export default router
