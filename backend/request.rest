@@ -1,13 +1,30 @@
 GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJQZWgiLCJlbWFpbCI6InBlaEBnbWFpbC5jb20iLCJpYXQiOjE3MDA5MTAyNjAsImV4cCI6MTcwMDkxMDI4MH0.LNwx3hATB710_MpQSsDITxDxctEKnucZokiUduUAr44
 
 ###
 POST http://localhost:5000/users
 Content-Type: application/json
 
 {
-    "name": "Capstone",
-    "email": "capt@gmail.com",
-    "password": "1234",
-    "confpassword": "1234"
+    "name": "Peh",
+    "email": "peh@gmail.com",
+    "password": "098098",
+    "confpassword": "098098"
 
 }
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "peh@gmail.com",
+    "password": "098098"
+}
+
+###
+GET http://localhost:5000/token
+
+
+###
+DELETE  http://localhost:5000/logout
