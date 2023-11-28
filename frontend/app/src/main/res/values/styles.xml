@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="AyoBelajar">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="Start">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#016AE4</item>
+    </style>
+
+</resources>
