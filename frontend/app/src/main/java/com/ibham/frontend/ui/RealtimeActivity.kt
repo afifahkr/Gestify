@@ -1,4 +1,4 @@
-package com.ibham.frontend
+package com.ibham.frontend.ui
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -10,6 +10,7 @@ import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.ibham.frontend.R
 import kotlinx.android.synthetic.main.realtime.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
