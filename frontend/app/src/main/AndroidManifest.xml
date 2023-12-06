@@ -17,7 +17,20 @@
         android:theme="@style/Theme.Frontend"
         tools:targetApi="31">
         <activity
-            android:name=".Homepage"
+            android:name=".ui.NavBar"
+            android:label="navbar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name=".ui.Homepage"
             android:label="Home"
             android:exported="true">
             <intent-filter>
@@ -30,7 +43,7 @@
         </activity>
 
         <activity
-            android:name=".Splashscreen"
+            android:name=".ui.Splashscreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,22 +57,16 @@
         </activity>
 
         <activity
-            android:name=".RealtimeActivity"
+            android:name=".ui.RealtimeActivity"
             android:exported="false">
             <!-- Tambahkan konfigurasi aktivitas Realtime jika diperlukan -->
         </activity>
 
         <activity
-            android:name=".DictionaryMenu"
-            android:label="Dictionary Menu"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
+            android:name=".ui.DictionaryMenu"
+            android:exported="false"
+            >
+             />
         </activity>
     </application>
 
