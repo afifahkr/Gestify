@@ -14,7 +14,7 @@ class Splashscreen : AppCompatActivity() {
         supportActionBar?.hide()
 
         Handler().postDelayed({
-            val intent = Intent(this@Splashscreen, Homepage::class.java)
+            val intent = Intent(this@Splashscreen, NavBar::class.java)
             startActivity(intent)
             finish()
         }, 3000)
