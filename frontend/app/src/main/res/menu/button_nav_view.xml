@@ -16,5 +16,10 @@
         android:icon="@drawable/ic_baseline_supervised_user_circle_24"
         android:title="About" />
 
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+        android:title="About" />
+
 
 </menu>
