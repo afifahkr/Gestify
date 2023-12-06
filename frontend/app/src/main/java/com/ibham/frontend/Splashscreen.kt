@@ -15,6 +15,7 @@ class Splashscreen : AppCompatActivity() {
         Handler().postDelayed({
             val intent = Intent(this@Splashscreen, Homepage::class.java)
             startActivity(intent)
+            finish()
         }, 3000)
     }
 }
