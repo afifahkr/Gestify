@@ -52,7 +52,7 @@ class RealtimeActivity : AppCompatActivity() {
                 cameraProvider.unbindAll()
                 cameraProvider.bindToLifecycle(this, cameraSelector, preview)
             } catch (exc: Exception) {
-                Toast.makeText(this, "Error starting camera: ${exc.message}", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Kesalahan memulai kamera: ${exc.message}", Toast.LENGTH_SHORT).show()
             }
 
         }, ContextCompat.getMainExecutor(this))
@@ -70,7 +70,7 @@ class RealtimeActivity : AppCompatActivity() {
             } else {
                 Toast.makeText(
                     this,
-                    "Permissions not granted by the user.",
+                    "Pengguna tidak mengizinkan akses",
                     Toast.LENGTH_SHORT
                 ).show()
                 finish()
