@@ -21,7 +21,7 @@ class Katalist : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.dictionary_list)
+        setContentView(R.layout.activity_katalist)
 
         searchView = findViewById(R.id.searchView)
         searchView.clearFocus()

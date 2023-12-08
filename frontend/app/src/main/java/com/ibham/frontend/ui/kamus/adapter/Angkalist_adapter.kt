@@ -36,7 +36,7 @@ class Angkalist_adapter(private var itemList: List<Recyclerview_list>, private v
 
         holder.cardView.setOnClickListener {
             // Format nomor posisi dengan angka nol di depan jika kurang dari 10
-            val formattedPosition = String.format("%02d", position)
+            val formattedPosition = String.format("%02d", position + 1)
 
             // Tentukan URL video berdasarkan posisi item yang diklik
             val videoUrl = when (position) {
