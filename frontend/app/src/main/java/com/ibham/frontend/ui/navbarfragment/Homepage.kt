@@ -1,5 +1,5 @@
 // Homepage.kt
-package com.ibham.frontend.ui
+package com.ibham.frontend.ui.navbarfragment
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.ibham.frontend.databinding.ActivityHomepageBinding
+import com.ibham.frontend.ui.NavBar
+import com.ibham.frontend.ui.RealtimeActivity
+import com.ibham.frontend.ui.navbarfragment.DictionaryMenu
 
 class Homepage : Fragment() {
     private lateinit var binding: ActivityHomepageBinding

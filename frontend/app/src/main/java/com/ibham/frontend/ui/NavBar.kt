@@ -3,20 +3,22 @@ package com.ibham.frontend.ui
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.ibham.frontend.R
 import com.ibham.frontend.databinding.NavbarBinding
-import android.view.animation.Animation
 import android.view.animation.TranslateAnimation
 import android.widget.LinearLayout
+import com.ibham.frontend.ui.navbarfragment.AboutUs
+import com.ibham.frontend.ui.navbarfragment.DictionaryMenu
+import com.ibham.frontend.ui.navbarfragment.Homepage
 
 class NavBar : AppCompatActivity() {
 
     private val fragmentHome: Homepage = Homepage()
     private val fragmentDictionary: DictionaryMenu = DictionaryMenu()
+    private val fragmentAboutUs : AboutUs = AboutUs()
     private val fm: FragmentManager = supportFragmentManager
     private var active: androidx.fragment.app.Fragment = fragmentHome // Ubah tipe data ke Fragment
 
@@ -37,7 +39,7 @@ class NavBar : AppCompatActivity() {
 
         fm.beginTransaction().add(R.id.container, fragmentHome, "home").commitAllowingStateLoss()
         fm.beginTransaction().add(R.id.container, fragmentDictionary, "dictionary").hide(fragmentDictionary).commitAllowingStateLoss()
-
+        fm.beginTransaction().add(R.id.container, fragmentAboutUs, "about").hide(fragmentAboutUs).commitAllowingStateLoss()
 
         bottomNavigationView = binding.navView
         menu = bottomNavigationView.menu
@@ -56,10 +58,14 @@ class NavBar : AppCompatActivity() {
                     slideUp(fragmentDictionary)
                     callFragment("dictionary", fragmentDictionary)
                 }
+                R.id.navigation_about -> {
+                    callFragment("about", fragmentAboutUs)
+                }
             }
             true
         }
     }
+
 
     fun showDictionaryFragment() {
         callFragment("dictionary", fragmentDictionary)

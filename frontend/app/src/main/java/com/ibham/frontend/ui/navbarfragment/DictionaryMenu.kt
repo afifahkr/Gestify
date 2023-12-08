@@ -1,5 +1,5 @@
 // DictionaryMenu.kt
-package com.ibham.frontend.ui
+package com.ibham.frontend.ui.navbarfragment
 
 import android.content.Intent
 import android.os.Bundle

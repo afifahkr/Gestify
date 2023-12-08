@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:queryHint="Cari kata ...."
+        app:queryHint="Cari huruf ...."
         app:iconifiedByDefault="false"/>
 
     <TextView

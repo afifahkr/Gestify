@@ -7,7 +7,7 @@ import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 import com.ibham.frontend.R
 
-class Playvideo : AppCompatActivity() {
+class playvideo : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

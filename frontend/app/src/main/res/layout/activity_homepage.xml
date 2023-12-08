@@ -9,7 +9,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".ui.Homepage">
+        tools:context=".ui.navbarfragment.Homepage">
 
         <RelativeLayout
             android:layout_width="match_parent"
