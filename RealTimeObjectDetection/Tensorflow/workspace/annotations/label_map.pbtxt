@@ -1,0 +1,20 @@
+item { 
+	name:'hai'
+	id:1
+}
+item { 
+	name:'kami'
+	id:2
+}
+item { 
+	name:'senang'
+	id:3
+}
+item { 
+	name:'dan'
+	id:4
+}
+item { 
+	name:'semangat'
+	id:5
+}

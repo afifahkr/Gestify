@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages1</folder>
+	<filename>kami.14ccf9d4-933e-11ee-b67b-683e26ed003f.jpg</filename>
+	<path>D:\College\BANGKIT\capstone\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages1\kami.14ccf9d4-933e-11ee-b67b-683e26ed003f.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kami</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>435</xmin>
+			<ymin>335</ymin>
+			<xmax>535</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>

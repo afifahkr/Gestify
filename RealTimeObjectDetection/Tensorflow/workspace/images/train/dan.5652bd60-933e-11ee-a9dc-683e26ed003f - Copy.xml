@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages1</folder>
+	<filename>dan.5652bd60-933e-11ee-a9dc-683e26ed003f - Copy.jpg</filename>
+	<path>D:\College\BANGKIT\capstone\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages1\dan.5652bd60-933e-11ee-a9dc-683e26ed003f - Copy.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dan</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>216</xmin>
+			<ymin>330</ymin>
+			<xmax>415</xmax>
+			<ymax>456</ymax>
+		</bndbox>
+	</object>
+</annotation>
