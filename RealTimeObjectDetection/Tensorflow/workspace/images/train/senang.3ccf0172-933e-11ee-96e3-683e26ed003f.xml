@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages1</folder>
+	<filename>senang.3ccf0172-933e-11ee-96e3-683e26ed003f.jpg</filename>
+	<path>D:\College\BANGKIT\capstone\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages1\senang.3ccf0172-933e-11ee-96e3-683e26ed003f.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>senang</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>224</xmin>
+			<ymin>316</ymin>
+			<xmax>597</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>
