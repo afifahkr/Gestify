@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "323773674592",
+    "project_id": "identity-gestify",
+    "storage_bucket": "identity-gestify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323773674592:android:90c7f91a785f39be817f05",
+        "android_client_info": {
+          "package_name": "com.ibham.frontend.ui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZBZb-Hn111JTLjAGg3CpAwEtAKaJZ2ZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

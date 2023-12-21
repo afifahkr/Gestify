@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import com.ibham.frontend.databinding.ActivityHomepageBinding
 import com.ibham.frontend.ui.NavBar
 import com.ibham.frontend.ui.RealtimeActivity
+import com.ibham.frontend.ui.SibiWeb
 import com.ibham.frontend.ui.navbarfragment.DictionaryMenu
 
 class Homepage : Fragment() {
@@ -37,6 +38,11 @@ class Homepage : Fragment() {
             if (activity is NavBar) {
                 (activity as NavBar).showDictionaryFragment()
             }
+        }
+
+        binding.sibiWeb.setOnClickListener {
+            val intent = Intent(activity, SibiWeb::class.java)
+            startActivity(intent)
         }
     }
 }
