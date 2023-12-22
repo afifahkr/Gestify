@@ -4,7 +4,7 @@ Hello everyone, welcome to our machine learning repo, here is the guide how to b
 ## 1. Copy the projet directory from the repo
 You can do it by `git clone https://github.com/afifahkr/Gestify.git` in wherever you want on your local using command prompt.
 ## 2. Set up the tensorflow object detection API environment in anaconda environment
-You can set up by yourself or following this cool video tutorial by *Lazy Tech* on youtube. click [here]([https://www.example.com](https://www.youtube.com/watch?v=rRwflsS67ow)https://www.youtube.com/watch?v=rRwflsS67ow)
+You can set up by yourself or following this cool video tutorial by *Lazy Tech* on youtube. [click here to watch](https://www.example.com](https://www.youtube.com/watch?v=rRwflsS67ow)https://www.youtube.com/watch?v=rRwflsS67ow)
 ## 3. Download the full dataset 
 Currently, in this repo only available 5 sign language vocab with 20 image each of them, download dataset [here](https://www.kaggle.com/datasets/zuhadharkasyalhikam/dataset-sistem-isyarat-bahasa-indonesia-sibi)<br>
 After downloading, you can delete the existing directory named `train` and `test` and put the dataset folder in `\RealTimeObjectDetection\Tensorflow\workspace\images` 
