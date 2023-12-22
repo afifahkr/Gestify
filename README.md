@@ -25,5 +25,8 @@ You can do this by running the script, you can customize where you want the .h5 
 # Guide How to Build the Model on Google Colaboratory
 ## 1. Download and Upload the Dataset
 To make it easier running again and again whenever the kernel is disconnected, and you do not have to upload the dataset over and over again, instead of uploading the dataset trough the notebook, you can upload the dataset to your google drive inside the root folder.
-## 2. Run the Google Colab
+## 2. Download the notebook and upload it on Google Colab
+The notbook is different with notebook when you run it in jupyter notebook, the notebook is named `gestify.pynb`, you can see it in the root folder of this repo<br>
+After downloading, you can upload it to your google drive or simply open google colab and import the notebook there.
+## 3. Run the Google Colab
 You can run the entire code in one click by clicking `ctrl+f9`
