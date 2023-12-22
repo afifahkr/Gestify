@@ -21,3 +21,9 @@ After the training finished, you can test the model in realtime by continuing th
 Then, you can type `q` to stop the testing
 ## 7. Export the model into h5 file
 You can do this by running the script, you can customize where you want the .h5 will be generated and the .h5 file name also.
+<br><br><br>
+# Guide How to Build the Model on Google Colaboratory
+## 1. Download and Upload the Dataset
+To make it easier running again and again whenever the kernel is disconnected, and you do not have to upload the dataset over and over again, instead of uploading the dataset trough the notebook, you can upload the dataset to your google drive inside the root folder.
+## 2. Run the Google Colab
+You can run the entire code in one click by clicking `ctrl+f9`
